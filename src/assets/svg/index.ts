@@ -1,0 +1,12 @@
+export { ReactComponent as BgIntroDesktop } from './bg-intro-desktop.svg';
+export { ReactComponent as BgIntroMobile } from './bg-intro-mobile.svg';
+export { ReactComponent as IconApi } from './icon-api.svg';
+export { ReactComponent as IconBudgeting } from './icon-budgeting.svg';
+export { ReactComponent as IconClose } from './icon-close.svg';
+export { ReactComponent as IconFacebook } from './icon-facebook.svg';
+export { ReactComponent as IconHamburger } from './icon-hamburger.svg';
+export { ReactComponent as IconInstagram } from './icon-instagram.svg';
+export { ReactComponent as IconOnboarding } from './icon-onboarding.svg';
+export { ReactComponent as IconOnline } from './icon-online.svg';
+export { ReactComponent as IconTwitter } from './icon-twitter.svg';
+export { ReactComponent as Logo } from './logo.svg';

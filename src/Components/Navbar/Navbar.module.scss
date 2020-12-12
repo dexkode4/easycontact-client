@@ -1,0 +1,26 @@
+@import '../../styles/main.scss';
+
+.navbar {
+    width: 100vw;
+    background: $color-white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2em 1.5em;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    &Logo {
+        display: flex;
+        align-items: center;
+        span {
+            font-weight: 800;
+            font-size: 1.3rem;
+        }
+
+        &Icon{
+            font-size: 2rem;
+        }
+    }
+    
+}
