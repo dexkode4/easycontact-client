@@ -10,3 +10,4 @@ export { ReactComponent as IconOnboarding } from './icon-onboarding.svg';
 export { ReactComponent as IconOnline } from './icon-online.svg';
 export { ReactComponent as IconTwitter } from './icon-twitter.svg';
 export { ReactComponent as Logo } from './logo.svg';
+export { ReactComponent as People } from './contact.svg';
