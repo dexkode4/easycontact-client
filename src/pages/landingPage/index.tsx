@@ -3,6 +3,7 @@ import Navbar from '../../Components/Navbar'
 import About from '../about'
 import Footer from '../footer'
 import Home from '../home'
+import {Route} from 'react-router-dom';
 
 import styles from './landingPage.module.scss'
 
@@ -10,12 +11,12 @@ function LandingPage() {
     return (
         <div className={styles.landingPage}>
             <Navbar />
-            <Home />
+            <Home id={"home"}/>
             <div className={styles.body}>
-                <About />
+                <About id={"about"} />
             </div>
 
-            <Footer />
+            <Footer id={"contact"}/>
         </div>
     )
 }

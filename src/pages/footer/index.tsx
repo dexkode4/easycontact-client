@@ -5,9 +5,13 @@ import styles from './footer.module.scss';
 import { IconFacebook, IconInstagram, IconTwitter } from '../../assets/svg'
 
 
-function Footer() {
+type FooterProps = {
+    id: string
+}
+
+function Footer({ id }: FooterProps) {
     return (
-        <div className={styles.footer}>
+        <div className={styles.footer} id={id}>
             <div className={styles.footerLogo}>
                 easycontact
             </div>

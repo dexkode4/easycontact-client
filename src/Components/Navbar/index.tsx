@@ -7,23 +7,23 @@ import NavMenu from './components/NavMenu';
 const MenuLinks = [
     {
         title: 'Home',
-        link: '/'
+        link: 'home'
     },
     {
         title: 'About',
-        link: '/about'
+        link: 'about'
     },
     {
         title: 'Contact',
-        link: '/contact'
+        link: 'contact'
     },
     {
         title: 'Signup',
-        link: '/signup'
+        link: 'signup'
     },
     {
         title: 'Signin',
-        link: '/signin'
+        link: 'signin'
     },
 ]
 

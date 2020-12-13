@@ -4,9 +4,13 @@ import styles from './home.module.scss';
 import { BgIntroMobile, People } from '../../assets/svg'
 import Button from '../../Components/Button';
 
-function Home() {
+
+type HomeProps = {
+    id: string
+}
+function Home({ id }: HomeProps) {
     return (
-        <div className={styles.home}>
+        <div className={styles.home} id={id}>
             <div className={styles.homeSvg}>
                 <BgIntroMobile />
                 <People className={styles.homeSvgPeople} />

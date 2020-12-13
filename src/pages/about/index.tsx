@@ -5,11 +5,13 @@ import styles from './about.module.scss';
 import { FEATURES } from './data';
 
 
+type AboutProps = {
+    id: string
+}
 
-
-function About() {
+function About({ id }: AboutProps) {
     return (
-        <div className={styles.about}>
+        <div className={styles.about} id={id}>
             <div className={styles.aboutHeader}>
                 <h1>Why choose Easycontact</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur tempore veritatis temporibus similique velit dignissimos quam et. Ullam, libero natus. </p>
