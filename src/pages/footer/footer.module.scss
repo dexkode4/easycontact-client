@@ -1,0 +1,13 @@
+@import '../../styles/variables';
+
+.footer {
+    background: $color-dark-blue;
+    color: $color-grayish-blue;
+    width: 100%;
+    display: grid;
+    place-content: center;
+
+    &Logo {
+        color: $color-white;
+    }
+}

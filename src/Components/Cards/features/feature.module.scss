@@ -1,0 +1,37 @@
+@import '../../../styles/variables';
+
+.feature {
+    width: 20rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    @media (min-width: 420px) {
+        align-items: flex-start;
+        text-align: left;
+        &:not(:last-child){
+            margin-right: 2rem;
+        }
+    }
+   
+    &Icon{
+        background: linear-gradient(120deg, $color-lime-green, $color-bright-cyan);       
+        border-radius: 50%;
+        height: 4.5rem;
+        width: 4.5rem;
+        display: grid;
+        place-content: center;
+        margin-bottom: 2rem;
+    }
+
+    h3{
+        font-weight: 400;
+        margin-bottom: 1rem;
+    }
+
+    p {
+       color:  $color-grayish-blue;
+       line-height: 1.5rem;
+    }
+}

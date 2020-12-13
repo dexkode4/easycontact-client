@@ -1,0 +1,28 @@
+@import '../../styles/variables';
+
+
+.about{
+    padding: 2em 0;
+    &Header{
+        text-align: center;
+        h1{
+            font-weight: 400;
+            font-size: 1.7rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            color: $color-grayish-blue;
+            line-height: 1.5rem;
+            font-weight: 400;
+            font-size: .9rem;
+        }
+    }
+
+    &Features {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 4rem;
+    }
+}

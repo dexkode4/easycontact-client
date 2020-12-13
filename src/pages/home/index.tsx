@@ -12,7 +12,7 @@ function Home() {
                 <People className={styles.homeSvgPeople} />
             </div>
             <div className={styles.homeDescription}>
-                <h1>Next generation digital banking</h1>
+                <h1>Next generation contact app</h1>
                 <p>Take your contact list online. Your EasyContact account will be a quick goto for texting, mailing, calling and much more.</p>
 
                 <div className={styles.homeDescriptionCta}>
