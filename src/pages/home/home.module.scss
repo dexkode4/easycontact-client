@@ -1,0 +1,55 @@
+@import '../../styles/variables';
+
+.home {
+    width: 100vw;
+    position: relative;
+
+    &Svg{
+        width: 100%;
+        margin-bottom: 4rem;
+
+        @media (min-width:411px) {
+            margin-bottom: 6rem;
+        }
+        svg {
+            width: 100%;
+        }
+    }
+
+   
+
+    &SvgPeople{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        // height:60%;
+        width: 80% !important;
+    }
+
+    &Description{
+        padding: 0 2.5em;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1 {
+            font-weight: 400;
+            margin-bottom: 1rem;
+        }
+        p{
+            color: $color-grayish-blue;
+            line-height: 1.5rem;
+            font-weight: 400;
+            font-size: .9rem;
+        }
+
+        &Cta{
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            margin-top: 2rem;
+        }
+    }
+}
