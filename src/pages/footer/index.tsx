@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import { Link as LinkScroll } from 'react-scroll';
 import styles from './footer.module.scss';
 
 import { IconFacebook, IconInstagram, IconTwitter } from '../../assets/svg'
@@ -24,7 +25,19 @@ function Footer({ id }: FooterProps) {
 
             <nav>
                 <ul>
-                    <li> <Link to="/about">About us</Link></li>
+
+                    <li>
+                        <LinkScroll
+                            activeClass="active"
+                            to="about"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                        >
+                            About us
+                    </LinkScroll>
+                    </li>
                     <li> <Link to="/contact">contact</Link> </li>
                     <li> <Link to="/support">support</Link></li>
                     <li> <Link to="/privacy">privacy policy</Link> </li>
