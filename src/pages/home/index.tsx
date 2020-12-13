@@ -15,8 +15,10 @@ function Home() {
                 <h1>Next generation digital banking</h1>
                 <p>Take your contact list online. Your EasyContact account will be a quick goto for texting, mailing, calling and much more.</p>
 
-                <Button text={"sign up"} route={'signup'} />
-                {/* <Button text={"sign in"} route={'signin'} /> */}
+                <div className={styles.homeDescriptionCta}>
+                    <Button text={"sign up"} route={'signup'} />
+                    <Button text={"sign in"} route={'signin'} />
+                </div>
             </div>
         </div>
     )
